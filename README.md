@@ -61,3 +61,7 @@ export PATH=${PATH}:${ANDROID_HOME}/tools
 shiyongchaodeMac:tools shiyongchao$ adb devices
 List of devices attached
 ```
+### 启动时间-冷启动
+- 启动App命令 `adb shell am start -W -n package/acitvity`
+- 停止App命令 `adb shell am force-stop package`
+
