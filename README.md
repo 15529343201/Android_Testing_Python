@@ -32,3 +32,32 @@ git jenkins<br>
 
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter1/Image/2.PNG)
 
+# chapter2
+### 内容
+1.启动时间<br>
+2.CPU<br>
+3.流量<br>
+4.电量<br>
+5.内存<br>
+6.FPS<br>
+7.过度渲染<br>
+### 环境准备
+- Android SDK
+- Python2.7
+- PyCharm
+
+下载android-sdk_r24.4.1-macosx.zip:<br>
+http://tools.android-studio.org/index.php/sdk<br>
+https://blog.csdn.net/jdfkldjlkjdl/article/details/72528551<br>
+https://www.cnblogs.com/yjmyzz/p/4219829.html<br>
+https://www.cnblogs.com/yjmyzz/p/4219829.html<br>
+https://blog.csdn.net/camlot_/article/details/47424671<br>
+```
+先要安装jdk
+export ANDROID_HOME=/Users/shiyongchao/Downloads/android-sdk
+export PATH=${PATH}:${ANDROID_HOME}/platforms
+export PATH=${PATH}:${ANDROID_HOME}/tools
+
+shiyongchaodeMac:tools shiyongchao$ adb devices
+List of devices attached
+```
