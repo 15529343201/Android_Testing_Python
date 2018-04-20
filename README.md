@@ -162,5 +162,5 @@ Appium环境搭建:https://blog.csdn.net/kuangshow0227/article/details/73200984<
 - 自动化脚本的运行
 
 进入D:\android-sdk\tools找到uiautomatorviewer并启动<br>
-https://github.com/15529343201/Android_Testing_Python/blob/chapter3/Image/16.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter3/Image/16.PNG)<br>
 `adb devices` 获取手机名称<br>
