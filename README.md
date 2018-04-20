@@ -73,3 +73,17 @@ List of devices attached
 然后执行:<br>
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/5.PNG)
 
+### 启动时间-热启动
+- 启动App命令 `adb shell am start -W -n package/acitvity`
+- 停止App命令 `adb shell input keyevent 3`
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/6.PNG)
+### 自动化脚本的实现
+- 获取命令执行时间,作为启动时间参考值
+- 在命令前后加上时间戳,以差值作为参考值
+
+### 执行时间
+- App Class:LaunchApp、StopApp、GetLaunchedTime
+- Controller Class:run、collectAllData、SaveDataToCSV
+
+打开pycharm:创建mookStartTime工程<br>
