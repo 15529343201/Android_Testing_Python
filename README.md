@@ -101,3 +101,13 @@ List of devices attached
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/7.PNG)
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/8.PNG)
 
+## 电量
+- 获取电量:`adb shell dumpsys battery`
+- 切换非充电状态:`adb shell dumpsys battery set status 1`
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/9.PNG)
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/10.PNG)
+
+
+
+
