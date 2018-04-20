@@ -289,3 +289,13 @@ class MytestCase(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
+## Test Case
+- 含义:A test case is the smallest unit of testing.It checks for a specific response to a particular set of inputs
+
+## Test Suite
+- 含义:A test suite is a collection of test cases,test suites,or both.It is used to aggregate tests that should be executed together.
+ 
+## Test Runner
+- 含义:A test runner is a component which orchestrates the execution of tests and provides the outcome to the user.
+
