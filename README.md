@@ -365,7 +365,36 @@ def testcase(self,value1,value2)
 
 ### Fiddler的工作原理
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/23.PNG)<br>
+### Fiddler设置断点修改Request
+- 设置断点的两种方式:1.通过工具栏设置断点、2.通过命令设置断点
 
+Rules-->Automatic Breakpoints-->Before Requests<br>
+命令行拦截:bpu www.google.com.hk<br>
+清除:bpu<br>
 
+### Fiddler设置断点修改Response
+- 设置断点的三种方式:1.通过工具栏设置断点、2.通过命令设置断点、3.AutoResponse设置
 
+`bpafter www.google.com.hk`<br>
+`bpafter`<br>
+
+`工具栏:AutoResponder`<br>
+### Fiddler小工具
+- 常用的小工具:1.会话的过滤、2.会话的比较、3.编码小工具
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/24.PNG)<br>
+对比:选中两个URL,右键compare,下载WinDiff到Fiddler目录下<br>
+编码:Tools-->TextWizard<br>
+
+### Fiddler Host的设置
+- Host设置方式:
+
+1.找到windows系统下的host文件,进行修改<br>
+2.安装一个小工具,帮助修改host<br>
+3.借助Fiddler工具,实现host的修改<br>
+Tools-->Host<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/25.PNG)<br>
+
+### Fiddler构造HTTP请求
+- 构造http请求:1.构造Get请求、2.构造Post请求
 
