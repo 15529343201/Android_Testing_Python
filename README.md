@@ -363,6 +363,9 @@ def testcase(self,value1,value2)
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/22.PNG)<br>
 安装完成后退出,再启动.<br>
 
+### Fiddler的工作原理
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/23.PNG)<br>
+
 
 
 
