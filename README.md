@@ -98,5 +98,6 @@ List of devices attached
 - 获取进程ID指令:`adb shell ps | grep packagename`
 - 获取进程ID流量:`adb shell cat /proc/pid/net/dev`
 
-
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/7.PNG)
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/8.PNG)
 
