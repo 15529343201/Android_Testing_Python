@@ -65,4 +65,11 @@ List of devices attached
 ### 启动时间-冷启动
 - 启动App命令 `adb shell am start -W -n package/acitvity`
 - 停止App命令 `adb shell am force-stop package`
+- 获取包名 `adb logcat | grep start`
+
+打开自带模拟器的浏览器:<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/4.PNG)<br>
+关掉自带的app<br>
+然后执行:<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/5.PNG)
 
