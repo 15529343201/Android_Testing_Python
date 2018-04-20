@@ -398,3 +398,8 @@ Tools-->Host<br>
 ### Fiddler构造HTTP请求
 - 构造http请求:1.构造Get请求、2.构造Post请求
 
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/26.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/27.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/28.PNG)<br>
+
+
