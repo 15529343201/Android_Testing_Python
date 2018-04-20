@@ -299,3 +299,21 @@ if __name__ == '__main__':
 ## Test Runner
 - 含义:A test runner is a component which orchestrates the execution of tests and provides the outcome to the user.
 
+```Python
+import unittestdemo
+import  unittest
+
+mysuite = unittest.TestSuite()
+mysuite.addTest(unittestdemo.MyTestCase("testLogInFailed"))
+mysuite.addTest(unittestdemo.MyTestCase("testLogInOK"))
+cases = unittest.TestLoader().loadTestsFromTestCase(unittestdemo.MyTestCase)
+mysuite = unittest.TestSuite([cases])
+mysuite.addTest(unittestdemo.MyTestCase("testLogIn"))
+
+myrunner = unittest.TextTestRunner(verbosity=2)
+myrunner.run(mysuite)
+```
+
+## 数据驱动
+- 含义:DDT(Data-Driven Tests)allows you to multiply one test case by running it with defferent test data,and make it appear as multiple test cases.
+
