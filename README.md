@@ -141,3 +141,8 @@ List of devices attached
 - 数据驱动
 - 实践
 
+## 准备一个测试的App
+- 在App登录页面进行登录,登录成功后自动退出
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter3/Image/15.PNG)
+
