@@ -50,8 +50,8 @@ git jenkins<br>
 http://tools.android-studio.org/index.php/sdk<br>
 https://blog.csdn.net/jdfkldjlkjdl/article/details/72528551<br>
 https://www.cnblogs.com/yjmyzz/p/4219829.html<br>
-https://www.cnblogs.com/yjmyzz/p/4219829.html<br>
 https://blog.csdn.net/camlot_/article/details/47424671<br>
+https://blog.csdn.net/lsd200624101033/article/details/51898619<br>
 ```
 先要安装jdk
 export ANDROID_HOME=/Users/shiyongchao/Downloads/android-sdk
@@ -61,6 +61,7 @@ export PATH=${PATH}:${ANDROID_HOME}/tools
 shiyongchaodeMac:tools shiyongchao$ adb devices
 List of devices attached
 ```
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter1/Image/3.PNG)
 ### 启动时间-冷启动
 - 启动App命令 `adb shell am start -W -n package/acitvity`
 - 停止App命令 `adb shell am force-stop package`
