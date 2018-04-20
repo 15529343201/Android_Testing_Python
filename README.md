@@ -316,4 +316,25 @@ myrunner.run(mysuite)
 
 ## 数据驱动
 - 含义:DDT(Data-Driven Tests)allows you to multiply one test case by running it with defferent test data,and make it appear as multiple test cases.
+- 准备第三方库:首先安装ddt库,其次在脚本中引入ddt:https://pypi.org/project/ddt/  `python setup.py install`
+
+```Python
+from ddt import ddt,data,unpace
+@ddt 
+class MookTestCase(unittest.TestCase)
+```
+- 数据驱动的应用
+
+```Python
+使用元组存放被测试的数据,一个参数的情况
+@data(1,-3,2,0)
+def testcase(self,value):
+使用元组存放被测试的数据,多个参数的情况
+@data((3,2),(4,3),(5,3))
+@unpack
+def testcase(self,value1,value2)
+```
+
+
+
 
