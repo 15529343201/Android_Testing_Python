@@ -198,5 +198,21 @@ time.sleep(5)
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter3/Image/17.PNG)
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter3/Image/18.PNG)<br>
 
+## Test Fixture
+- 含义:A test fixture represents the preparation needed to perform one or more tests,and any associate cleanup actions.
+- 结构:setup()、testcase()、teardown()
 
+```Python
+import unittest
+
+
+class MyTestCase(unittest.TestCase):
+    def test_something(self):
+        self.assertEqual(True, False)
+
+
+if __name__ == '__main__':
+    unittest.main()
+```
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter3/Image/19.PNG)<br>
 
