@@ -87,3 +87,16 @@ List of devices attached
 - Controller Class:run、collectAllData、SaveDataToCSV
 
 打开pycharm:创建mookStartTime工程<br>
+### 时间戳差值
+- App Class:LaunchApp、StopApp、CalculateTime、TimeBeforeLaunch、TimeAfterLaunch
+- Controller Class:run、collectAllData、SaveDataToCSV
+
+## CPU
+- 获取数据:`adb shell dumpsys cpuinfo | grep packagename`
+
+## 流量
+- 获取进程ID指令:`adb shell ps | grep packagename`
+- 获取进程ID流量:`adb shell cat /proc/pid/net/dev`
+
+
+
