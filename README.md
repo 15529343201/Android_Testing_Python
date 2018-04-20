@@ -108,6 +108,21 @@ List of devices attached
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/9.PNG)
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/10.PNG)
 
+## 内存
+- 获取内存:`adb shell top` `VSS-Virtual Set Size 虚拟耗用内存` `RSS-Resident Set Size 实际使用物理内存`
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/11.PNG)
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/12.PNG)
+
+- `adb shell top -d 1 > meminfo`
+- `cat meminfo | grep com.android.browser`
+
+## FPS&过度渲染
+- FPS:frames per second - 每秒的帧数
+- 过度渲染:描述的是屏幕上的某个像素在同一帧的时间内被绘制了多次
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/13.PNG)
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/14.PNG)
 
 
 
