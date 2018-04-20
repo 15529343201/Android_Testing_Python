@@ -336,6 +336,32 @@ def testcase(self,value1,value2)
 ```
 - 在登录过程中,将登录的数据,使用数据驱动实现
 
+# chapter4
+## App API自动化测试
+- 基础概念
+- Fiddler
+- Postman
+- DDT在API自动化中的应用
+
+## 基础概念
+- 什么是API? API(Application Programming Interface,简称API),又称为应用程序编程接口,就是软件系统不同组成部分衔接的约定。API种类:面向对象语言的API、库与框架的API、API与协议、API与接口设备、Web API与协议、API与接口设备、Web API
+- HTTP API:HTTP中的8种不同的方法:GET、POST、PUT、DELETE、OPTIONS、HEAD、TRACE、CONNECT
+
+## Fiddler
+- Fiddler的环境准备
+- Fiddler的工作原理
+- Fiddler的基本界面
+- Fiddler设置断点修改Request
+- Fiddler设置断点修改Response
+- Fiddler小工具
+- Fiddler Host设置
+- Fiddler构造HTTP请求
+- Fiddler抓取手机包
+
+下载Fiddler:https://www.telerik.com/download/fiddler<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/21.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/22.PNG)<br>
+安装完成后退出,再启动.<br>
 
 
 
