@@ -124,5 +124,20 @@ List of devices attached
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/13.PNG)
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter2/Image/14.PNG)
 
+# chapter3 
+## 自动化实现的问题
+- 代码混乱,难阅读
+- 重复编码,效率低
+- 需求变化,难维护
 
+## 应用测试框架的意义
+- 提高代码的易读性
+- 提高编码效率
+- 提高代码的易维护性
+
+## 课程安排
+- 自动化实例
+- Unittest
+- 数据驱动
+- 实践
 
