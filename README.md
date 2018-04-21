@@ -402,4 +402,21 @@ Tools-->Host<br>
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/27.PNG)<br>
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/28.PNG)<br>
 
+### Fiddler抓取手机包
+- 设置过程:1.配置Fiddler允许监听https、2.配置Fiddler允许远程连接、3.手机端设置代理服务
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/29.PNG)<br>
+- 优点:1.无需Root权限、2.Android&IOS均适用
+
+### Post Man
+- API接口测试时的问题:1.后端服务提测时间早于客户端、2.很难用客户端模拟异常请求、3.Fiddler的composer无法实现自动化验证
+- 适用范围:PC、WAP、App
+- 环境准备:1.安装应用包、2.注册新的用户
+
+1.发送一条http Get请求<br>
+2.发送一条http Post请求<br>
+3.设置检查点,检验请求的返回值<br>
+4.自动运行请求集合<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/30.PNG)<br>
+
 
