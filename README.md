@@ -418,5 +418,7 @@ Tools-->Host<br>
 3.设置检查点,检验请求的返回值<br>
 4.自动运行请求集合<br>
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/30.PNG)<br>
+构造post请求<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/31.PNG)<br>
 
 
