@@ -430,3 +430,21 @@ Tools-->Host<br>
 下载requests:<br>
 http://docs.python-requests.org/en/master/user/install/#pipenv-install-requests<br>
 
+# chapter5
+- 持续集成的概念
+- 持续集成工具详解
+- 持续集成实例
+
+### 持续集成的概念
+- 持续集成的定义
+
+&emsp;&emsp;Martin Fowler和Kent Beck首次提出Continuous Integration(简称:CI),将之描述为:持续集成是一种软件开发实践,团队成员频繁地集成它们的工作。每位成员通常进行日常集成,进而每天会有多种集成。每个集成会由自动的构建(包括测试)来尽可能快地检测错误。许多团队发现这种方法可以显著的减少集成问题并且可以使团队的开发更加快捷。<br>
+
+
+
+
+
+
+
+
+
