@@ -483,6 +483,9 @@ Jenkins工具自动化持续集成<br>
 Jenkins连接git时异常 Failed to connect to repository:https://blog.csdn.net/mxj588love/article/details/54603191<br>
 https://www.cnblogs.com/EasonJim/p/6398213.html<br>
 
+# chapter6
+### Android Native App自动化
+
 
 
 
