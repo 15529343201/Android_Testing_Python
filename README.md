@@ -474,6 +474,14 @@ Jenkins的安装和启动:https://blog.csdn.net/a804229570/article/details/72630
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/38.PNG)<br>
 然后保存,立即构建<br>
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/39.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/40.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/41.PNG)<br>
+`adb logcat | grep START`<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/42.PNG)<br>
+Jenkins工具自动化持续集成<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/43.PNG)<br>
+Jenkins连接git时异常 Failed to connect to repository:https://blog.csdn.net/mxj588love/article/details/54603191<br>
+https://www.cnblogs.com/EasonJim/p/6398213.html<br>
 
 
 
