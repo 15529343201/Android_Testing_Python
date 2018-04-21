@@ -421,4 +421,12 @@ Tools-->Host<br>
 构造post请求<br>
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/31.PNG)<br>
 
+### DDT在API自动化中的应用
+- Python requests模块的准备
+- HTTP Get测试脚本的实现
+- HTTP Post测试脚本的实现
+- 在API自动化中应用DDT
+
+下载requests:<br>
+http://docs.python-requests.org/en/master/user/install/#pipenv-install-requests<br>
 
