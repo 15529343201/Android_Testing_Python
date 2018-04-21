@@ -485,6 +485,7 @@ https://www.cnblogs.com/EasonJim/p/6398213.html<br>
 
 # chapter6
 ### Android Native App自动化
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter6/Image/44.PNG)<br>
 
 
 
