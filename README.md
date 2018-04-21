@@ -486,6 +486,38 @@ https://www.cnblogs.com/EasonJim/p/6398213.html<br>
 # chapter6
 ### Android Native App自动化
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter6/Image/44.PNG)<br>
+### 课程安排
+- 自动化工具简介
+- 环境的准备
+- 元素识别工具
+- 脚本设计原则
+- 自动化脚本实现
+- 相关API的应用
+
+### 自动化工具简介
+- Appium的介绍
+- Appium理念
+- Appium的特点
+- Appium的架构
+
+#### Appium的介绍
+- Appium是一个开源、跨平台的自动化测试工具,用于测试Native(原生)和Hybrid(混合)应用,支持IOS,Android和FirefoxOS平台
+- Android平台 基于UIAutomator框架
+
+#### Appium的理念
+- 无需重新编译应用
+- 不局限于语言和框架
+- 无需重复造轮子,接口统一
+- 无论精神上,还是名义上,必须开源
+
+#### Appium的特点
+- 跨架构,Native、Hybrid、Webview
+- 跨设备,Android、IOS、Firefox OS
+- 跨语言,Java、Python、Ruby、PHP、JavaScript
+- 跨进程,不依赖源码(基于UIAutomator)
+
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter6/Image/45.PNG)<br>
+
 
 
 
