@@ -461,6 +461,22 @@ http://docs.python-requests.org/en/master/user/install/#pipenv-install-requests<
 - 系统的配置(Git、Github、Gradle、Android)
 - JOB的配置(具体项目相关的配置)
 
+手动下载jenkins插件:https://blog.csdn.net/ziwuzhulin/article/details/79820020<br>
+Jenkins的安装和启动:https://blog.csdn.net/a804229570/article/details/72630402<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/36.PNG)<br>
+创建一个Job<br>
+
+### 持续集成实例
+- 使用Jenkins自动测试App
+
+下载:https://github.com/wensen400/MiniBrowser2<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/37.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/38.PNG)<br>
+然后保存,立即构建<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/39.PNG)<br>
+
+
+
 
 
 
