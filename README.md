@@ -441,7 +441,7 @@ http://docs.python-requests.org/en/master/user/install/#pipenv-install-requests<
 &emsp;&emsp;Martin Fowler和Kent Beck首次提出Continuous Integration(简称:CI),将之描述为:持续集成是一种软件开发实践,团队成员频繁地集成它们的工作。每位成员通常进行日常集成,进而每天会有多种集成。每个集成会由自动的构建(包括测试)来尽可能快地检测错误。许多团队发现这种方法可以显著的减少集成问题并且可以使团队的开发更加快捷。<br>
 - 持续集成的流程
 
-![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter4/Image/32.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/32.PNG)<br>
 - 持续集成的意义
 
 1.尽早发现问题,提高提测质量<br>
