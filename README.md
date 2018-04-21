@@ -448,9 +448,18 @@ http://docs.python-requests.org/en/master/user/install/#pipenv-install-requests<
 2.构建情况清晰,提高项目进度的透明度<br>
 3.测试过程完全自动化,提高回归测试效率<br>
 
+### 持续集成工具详解
+- 代码管理工具(Git、Github)
+- 集成工具(Jenkins) https://jenkins.io/download/thank-you-downloading-windows-installer/
 
+启动:`java -jar jenkins.war -httpPort=8888 day8`<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/33.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/34.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter5/Image/35.PNG)<br>
 
-
+#### 工具的配置
+- 系统的配置(Git、Github、Gradle、Android)
+- JOB的配置(具体项目相关的配置)
 
 
 
