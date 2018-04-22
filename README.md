@@ -517,6 +517,44 @@ https://www.cnblogs.com/EasonJim/p/6398213.html<br>
 - 跨进程,不依赖源码(基于UIAutomator)
 
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter6/Image/45.PNG)<br>
+#### 环境的准备
+- Appium
+- Test Device
+- Test App
+- Appium-python-client、Selenium
+- android-sdk
+
+#### 元素识别工具
+- UIAutomatorViewer 工具的启动、工具的应用
+
+`D:\android-sdk\tools`<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter6/Image/46.PNG)<br>
+#### 脚本设计原则
+- LOVE原则
+
+L:Locate定位元素<br>
+O:Operate操作元素<br>
+V:Verify验证结果<br>
+E:Exception处理异常<br>
+#### 自动化脚本实现
+以手机上的计算器为例<br>
+- 测试计算器的加法、减法功能:Appium的配置、启动,脚本的初始化,脚本的实现-LOVE原则,脚本的运行
+
+`adb logcat | find "START"`<br>
+
+### 相关API的应用
+- `find_element_by_id()`
+- `find_elements_by_id()`
+- `find_element_by_accessibility_id()`
+- `find_elements_by_accessibility_id()`
+- `find_element_by_class_name()`
+- `find_elements_by_class_name()`
+- `press_keycode()`
+- `send_keys`
+- `click`
+- `time.sleep()`
+- `assertTrue()`
+- `assertEqual()`
 
 
 
