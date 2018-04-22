@@ -591,6 +591,27 @@ E:Exception处理异常<br>
 #### Selendroid的架构
 ![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter7/Image/50.PNG)<br>
 
+#### 环境的准备
+#### 元素识别工具
+- Inspector:Chrome Inspector for Selendroid,UIAutomatorViewer for UIAutomator
+
+#### 脚本设计原则
+- S-LOVE原则(<API19)
+
+1.S:Switch切换上下文<br>
+2.L:Locate定位元素<br>
+3.O:Operate操作元素<br>
+4.V:Verify验证结果<br>
+5.E:Exception处理异常<br>
+
+#### 基于Selendroid的自动化脚本实现
+- 在页面里搜索一个关键词,并验证和与其一致
+
+Appium的配置、启动<br>
+脚本的初始化<br>
+脚本的实现-S-LOVE原则<br>
+脚本的运行<br>
+
 
 
 
