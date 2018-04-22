@@ -574,6 +574,33 @@ E:Exception处理异常<br>
 - `start_activity()`
 - `get_screenshot_as_file()`
 
+# chapter7
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter7/Image/49.PNG)<br>
+### 课程安排
+- Appium的原理
+- 环境的准备
+- 元素识别工具
+- 脚本设计原则
+- 自动化脚本的实现
+- 相关API的应用
+
+#### Appium的原理
+- 针对于Hybrid的App,Appium基于Selendroid框架实现,而Selendroid框架又是基于Instrumentation框架实现的。
+- 可见,Appium本身是借助于其他框架控制App。
+
+#### Selendroid的架构
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter7/Image/50.PNG)<br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
