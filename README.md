@@ -612,6 +612,16 @@ Appium的配置、启动<br>
 脚本的实现-S-LOVE原则<br>
 脚本的运行<br>
 
+#### 相关API的应用
+- `contexts`
+- `switch_to.context()`
+- `find_element_by_xpath()`
+- `find_elements_by_xpath()`
+- `click()`
+- `time.sleep()`
+- `assertTrue()`
+- `assertEqual()`
+
 
 
 
