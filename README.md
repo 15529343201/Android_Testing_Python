@@ -556,6 +556,24 @@ E:Exception处理异常<br>
 - `assertTrue()`
 - `assertEqual()`
 
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter6/Image/47.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Python/blob/chapter6/Image/48.PNG)<br>
+- `scroll()`
+- `drag_and_drop()`
+- `tap()`
+- `swipe()`
+- `flick()`
+- `current_activity`
+- `wait_activity()`
+- `background_app()`
+- `is_app_installed()`
+- `install_app()`
+- `remove_app()`
+- `launch_app()`
+- `close_app()`
+- `start_activity()`
+- `get_screenshot_as_file()`
+
 
 
 
