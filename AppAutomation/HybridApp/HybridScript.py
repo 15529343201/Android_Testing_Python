@@ -4,6 +4,7 @@ import time
 from appium import webdriver
 import unittest
 
+
 class MyTestCase(unittest.TestCase):
     def setUp(self):
         # 定义初始化的属性信息
@@ -64,15 +65,16 @@ class MyTestCase(unittest.TestCase):
         print self.driver.current_context
         time.sleep(5)
 
-        #定位元素组
+        # 定位元素组
         elements = self.driver.find_elements_by_xpath('//*[@id="page"]/div[2]/div[2]/div/table/tbody/tr/td')
 
-        #输出所有元素的名称
+        # 输出所有元素的名称
         for el in elements:
             print el.text
 
     def tearDown(self):
         self.driver.quit()
+
 
 if __name__ == '__main__':
     unittest.main()
